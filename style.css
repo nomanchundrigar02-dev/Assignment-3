@@ -1,0 +1,107 @@
+body {
+  background-image: linear-gradient(#006666, #1f152b 100%);
+  height: 100vh;
+  overflow: hidden;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #ffffff;
+}
+header {
+  margin: 12px;
+}
+.container a {
+  text-decoration: none;
+}
+
+.logo {
+  display: inline;
+  padding-left: 40px;
+}
+
+.navbar {
+  display: inline;
+  padding: 173px;
+}
+
+.navbar ul {
+  display: inline;
+}
+
+ul > li {
+  display: inline;
+  padding: 20px;
+}
+ul > li > a:hover {
+  color: #006666;
+}
+
+#signin:hover {
+  color: #006666;
+}
+#signup:hover {
+  color: #006666;
+}
+
+.sign-button {
+  display: inline;
+  padding: 30px;
+}
+#signin {
+  padding-right: 25px;
+  font-size: small;
+}
+#signup {
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  padding: 5px 12px;
+  font-size: small;
+}
+section {
+  margin-top: 150px;
+  padding-left: 65px;
+  width: 900px;
+}
+
+p {
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+.section-button {
+  display: inline;
+}
+#join-now {
+  background-color: rgb(27, 206, 250);
+  text-decoration: none;
+  display: inline;
+  padding: 6px 15px;
+  border: 1px solid none;
+  font-size: small;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+#learn-more {
+  text-decoration: none;
+  display: inline;
+  padding: 5px 12px;
+  border: 1px solid #ffffff;
+  font-size: small;
+  border-radius: 5px;
+}
+#learn-more:hover {
+  color: #006666;
+}
+#join-now:hover {
+  background-color: #006666;
+}
+
+img {
+  float: right;
+  margin-bottom: 50px;
+  margin-right: 60px;
+  height: 400px;
+  padding-right: 80px;
+  padding-top: 50px;
+}
